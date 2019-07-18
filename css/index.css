@@ -275,7 +275,7 @@ a.active {
   padding-left: 0;
 }
 @media (max-width: 500px) {
-  .home .inverse-content .inverse-content {
+  .home .inverse-content {
     flex-direction: column-reverse;
   }
 }
