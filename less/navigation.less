@@ -1,1 +1,34 @@
 // Navigation Styles here
+.nav() {
+  padding: 5%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dotted @navigation-border;
+  font-family: @font-cursive;
+  font-size: 1.7rem;
+  .nav();
+}
+
+.navigation a:nth-child(1){
+  // justify-self: flex-start;
+  font-size: 3.2rem;
+  font-family: @font-cursive;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: @shark;
+  &:hover {
+    color: @crimson;
+    transition: 0.5s;
+  }
+}
+
+a.active {
+  color: @crimson;
+}
