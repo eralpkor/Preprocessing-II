@@ -19,7 +19,20 @@ header {
     font-size: 1.8rem;
     margin-left: 20px;
   }
+  @media @mobile {
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    h1 {
+      padding-bottom: 20px;
+    }
+    nav {
+      margin: 0;
+    }
+  }
 }
+
+
 header nav .first {
   margin-left: 0;
 }
